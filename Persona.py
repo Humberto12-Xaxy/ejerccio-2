@@ -1,9 +1,9 @@
 class Persona:
     
-    def __init__(self, nombre, edad, telefono) -> None:
-        self._nombre = nombre
-        self._edad = edad
-        self._telefono = telefono
+    def __init__(self) -> None:
+        self._nombre = ''
+        self._edad = 0 
+        self._telefono = ''
     
     @property
     def nombre(self):
